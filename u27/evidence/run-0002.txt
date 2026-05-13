@@ -1,0 +1,7 @@
+$ /usr/bin/env PYTHONPATH=src python3 -m eval_bench.cli demo --root examples/sample-project
+exit_code: 0
+
+## stdout
+Demo eval report written: examples/sample-project/u27/EVAL_REPORT.md
+
+## stderr

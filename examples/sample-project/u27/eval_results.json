@@ -1,0 +1,26 @@
+{
+  "cases_path": "examples/sample-project/evals/eval_cases.json",
+  "generated_at": "2026-05-13T00:50:46+00:00",
+  "results": [
+    {
+      "claim": "The primary CLI command returns usable output.",
+      "command": "python3 -c \"print('eval bench smoke ok')\"",
+      "evidence": "u27/eval_evidence/cli-smoke-test.txt",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "id": "cli-smoke-test",
+      "limits": [
+        "This eval confirms command execution, not full product correctness."
+      ],
+      "started_at": "2026-05-13T00:50:46+00:00",
+      "status": "pass"
+    }
+  ],
+  "schema_version": "0.1",
+  "summary": {
+    "failed": 0,
+    "passed": 1,
+    "total": 1
+  },
+  "system_class": "U27-S05"
+}

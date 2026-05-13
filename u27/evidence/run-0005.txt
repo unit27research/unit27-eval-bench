@@ -1,0 +1,7 @@
+$ python3 scripts/verify_wheel.py /tmp/eval-bench-wheel-modern/unit27_eval_bench-0.1.0-py3-none-any.whl
+exit_code: 0
+
+## stdout
+wheel contents verified
+
+## stderr

@@ -1,0 +1,18 @@
+{
+  "findings": [],
+  "generated_at": "2026-05-13T00:50:46+00:00",
+  "proof_cases": [
+    "boundary-readme-scan",
+    "first-use-demo",
+    "package-builds",
+    "result-inspection",
+    "tests-pass",
+    "wheel-contents"
+  ],
+  "schema_version": "0.1",
+  "source": "README.md",
+  "summary": {
+    "unsupported_claims": 0,
+    "verified_claims": 6
+  }
+}

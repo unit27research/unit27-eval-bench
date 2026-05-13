@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "Eval Bench unit and CLI behavior pass in the current local checkout.",
+    "expected": "The unittest suite exits 0 and covers init, run, inspect, demo, pass, and fail behavior.",
+    "id": "tests-pass",
+    "limits": [
+      "This claim covers the recorded local test command only."
+    ]
+  },
+  {
+    "claim": "Eval Bench can create a complete first-use demo project.",
+    "expected": "The demo command writes eval cases, eval results, an eval report, command evidence, and proof cases.",
+    "id": "first-use-demo",
+    "limits": [
+      "This claim covers the included starter demo path, not every possible user command."
+    ]
+  },
+  {
+    "claim": "Eval Bench can inspect its generated eval results.",
+    "expected": "The inspect command exits 0 and reports the system class, total cases, passed cases, and failed cases.",
+    "id": "result-inspection",
+    "limits": [
+      "This claim covers inspection of Eval Bench's own JSON output."
+    ]
+  },
+  {
+    "claim": "Eval Bench can produce an installable Python wheel.",
+    "expected": "The wheel build exits 0 and produces unit27_eval_bench-0.1.0-py3-none-any.whl.",
+    "id": "package-builds",
+    "limits": [
+      "This claim covers local artifact creation, not PyPI distribution."
+    ]
+  },
+  {
+    "claim": "The built wheel contains the expected modules and console entry point.",
+    "expected": "The wheel verifier exits 0 after checking core modules and eval-bench console script metadata.",
+    "id": "wheel-contents",
+    "limits": [
+      "This claim covers package contents, not runtime installation in every environment."
+    ]
+  },
+  {
+    "claim": "The public README stays inside the Eval Bench boundary.",
+    "expected": "Boundary Engine scan exits 0 against the current README and Proof Ledger evidence.",
+    "id": "boundary-readme-scan",
+    "limits": [
+      "This claim covers the README, not every future public surface."
+    ]
+  }
+]

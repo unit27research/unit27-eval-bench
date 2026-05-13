@@ -1,0 +1,11 @@
+[
+  {
+    "claim": "The primary CLI command returns usable output.",
+    "command": "python3 -c \"print('eval bench smoke ok')\"",
+    "expected_exit": 0,
+    "id": "cli-smoke-test",
+    "limits": [
+      "This eval confirms command execution, not full product correctness."
+    ]
+  }
+]

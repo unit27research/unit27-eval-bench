@@ -1,0 +1,7 @@
+$ /usr/bin/env PYTHONPATH=../unit27-boundary-engine/src python3 -m boundary_engine.cli scan README.md --proof u27/proof_ledger.json
+exit_code: 0
+
+## stdout
+Boundary scan complete: unsupported=0
+
+## stderr

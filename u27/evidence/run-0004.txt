@@ -1,0 +1,16 @@
+$ /Users/joshuabloodworth/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m pip wheel . --no-deps --no-build-isolation -w /tmp/eval-bench-wheel-modern
+exit_code: 0
+
+## stdout
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: unit27-eval-bench
+  Building wheel for unit27-eval-bench (pyproject.toml): started
+  Building wheel for unit27-eval-bench (pyproject.toml): finished with status 'done'
+  Created wheel for unit27-eval-bench: filename=unit27_eval_bench-0.1.0-py3-none-any.whl size=7007 sha256=b7d13b4227402670b4c67e160cf80968e1c2b498598fb29ae07f5102e6cdbb29
+  Stored in directory: /private/var/folders/cg/3wtt78v577d66ckcvzykyvjh0000gn/T/pip-ephem-wheel-cache-ia5bpovz/wheels/89/93/72/fd48953d3892d2cf21c503ea463c0cea53f775ee0cec53369b
+Successfully built unit27-eval-bench
+
+## stderr
+WARNING: The directory '/Users/joshuabloodworth/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.

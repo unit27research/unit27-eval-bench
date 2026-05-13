@@ -1,0 +1,10 @@
+[
+  {
+    "claim": "The primary CLI command returns usable output.",
+    "expected": "Eval Bench records `cli-smoke-test` as pass and stores evidence.",
+    "id": "eval-cli-smoke-test",
+    "limits": [
+      "This eval confirms command execution, not full product correctness."
+    ]
+  }
+]
