@@ -9,8 +9,9 @@ U27-S05
 EVAL BENCH
 
 CLASS: SYSTEM
+OPERATING_POSITION: 04/07
 FUNCTION: Eval Case Execution + Result Artifact Generation
-REF_ID: EVAL-BENCH-01
+REF_ID: U27-S05-EVAL-BENCH
 ```
 
 ## Release Status
