@@ -39,9 +39,11 @@ Result: Eval Bench runs the declared cases and writes a report Proof Ledger can 
 
 ## 60-Second Start
 
-From this repo:
+The current public release is GitHub-first. Run it from a local checkout:
 
 ```bash
+git clone https://github.com/unit27research/unit27-eval-bench
+cd unit27-eval-bench
 pip install -e .
 eval-bench demo
 cat eval-bench-demo/u27/EVAL_REPORT.md
