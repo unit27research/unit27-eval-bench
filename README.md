@@ -9,7 +9,7 @@ U27-S05
 EVAL BENCH
 
 CLASS: SYSTEM
-OPERATING_POSITION: 04/07
+OPERATING_POSITION: 05/08
 FUNCTION: Eval Case Execution + Result Artifact Generation
 REF_ID: U27-S05-EVAL-BENCH
 ```
@@ -73,7 +73,7 @@ It is designed to feel like a deterministic eval runner, not a benchmark platfor
 ## System Position
 
 ```text
-Stack Engine -> Context Engine -> Handoff Engine -> Eval Bench -> Proof Ledger -> Boundary Engine -> u27-check
+Stack Engine -> Context Engine -> Knowledge Readiness -> Handoff Engine -> Eval Bench -> Proof Ledger -> Boundary Engine -> u27-check
 ```
 
 Eval Bench sits after handoff generation and before proof recording. It runs declared eval cases and produces result artifacts. Proof Ledger remains responsible for durable proof records.

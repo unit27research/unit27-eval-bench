@@ -22,7 +22,7 @@ Generated: 2026-05-13T00:49:28+00:00
 
 - Eval Bench can produce an installable Python wheel.
   - Case: `package-builds`
-  - Command: `/Users/joshuabloodworth/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m pip wheel . --no-deps --no-build-isolation -w /tmp/eval-bench-wheel-modern`
+  - Command: `python3 -m pip wheel . --no-deps --no-build-isolation -w /tmp/eval-bench-wheel-modern`
   - Evidence: `u27/evidence/run-0004.txt`
 
 - The built wheel contains the expected modules and console entry point.

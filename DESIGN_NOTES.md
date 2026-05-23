@@ -7,7 +7,7 @@ Eval Bench exists to run deterministic eval cases and write result artifacts bef
 ## System Role
 
 ```text
-Stack Engine -> Context Engine -> Handoff Engine -> Eval Bench -> Proof Ledger -> Boundary Engine -> u27-check
+Stack Engine -> Context Engine -> Knowledge Readiness -> Handoff Engine -> Eval Bench -> Proof Ledger -> Boundary Engine -> u27-check
 ```
 
 Handoff Engine states what should be checked. Eval Bench runs declared cases. Proof Ledger records evidence-bearing runs after the eval result exists.

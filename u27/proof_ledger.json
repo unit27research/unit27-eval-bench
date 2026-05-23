@@ -44,7 +44,7 @@
     {
       "case_id": "package-builds",
       "claim": "Eval Bench can produce an installable Python wheel.",
-      "command": "/Users/joshuabloodworth/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m pip wheel . --no-deps --no-build-isolation -w /tmp/eval-bench-wheel-modern",
+      "command": "python3 -m pip wheel . --no-deps --no-build-isolation -w /tmp/eval-bench-wheel-modern",
       "evidence": [
         "u27/evidence/run-0004.txt"
       ],
